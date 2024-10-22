@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background-color: #f0f4f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  padding: 2rem;
+  text-align: center;
+  background-color: #004d66;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+.profile-img {
+  width: 100px; /* Adjust size as needed */
+  height: 100px; /* Make the image square */
+  border-radius: 50%; /* For a circular image */
+  margin-right: 20px; /* Space between image and text */
+  border: 3px solid white; /* Optional: Add a border around the image */
+}
+
+.header-text h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.header-text p {
+  font-size: 1.2rem;
+}
+
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+section {
+  margin: 2rem;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  font-size: 2rem;
+  color: #004d66;
+  margin-bottom: 1rem;
+}
+
+section p,
+ul {
+  font-size: 1.1rem;
+}
+
+ol,
+li,
+ul {
+  margin: 10px;
+}
+
+a {
+  color: #004d66;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* New skill box styling */
+#skills {
+  margin-bottom: 1rem;
+}
+
+#skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px; /* Ensures some space between the heading and the boxes */
+}
+
+.skill-box {
+  background-color: #cce7ff; /* Light bluish box */
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+  font-weight: bold;
+  color: #004d66;
+  display: inline-block;
+}
+
+.skill-box:hover {
+  background-color: #99d0ff;
+}
+
+footer {
+  text-align: center;
+  margin: 2rem 0;
+  padding: 1rem;
+  background-color: #004d66;
+  color: white;
+}
+
+.download-btn {
+  background-color: #cce7ff;
+  border: none;
+  color: #004d66;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.download-btn:hover {
+  background-color: #99d0ff;
+  transform: scale(1.05);
+}
